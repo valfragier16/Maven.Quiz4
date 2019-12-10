@@ -5,6 +5,7 @@ import java.util.Map;
 
 public class WordCounter {
     Map<String, Integer> map = new HashMap<>();
+
     public WordCounter(String... strings) {
         for (String s : strings) {
             Integer counter = 1;
